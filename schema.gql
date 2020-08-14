@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type EmployeeModel {
+  id: Float!
+  companyId: Float!
+  employeeName: String!
+  gender: String!
+  email: String!
+  company: CompanyModel!
+}
+
+type CompanyModel {
+  id: Float!
+  name: String!
+  employees: [EmployeeModel!]
+}
+
+type Query {
+  Company(id: String!): CompanyModel!
+  Companies: CompanyModel!
+  Employee(id: String!): EmployeeModel!
+  Employees: [EmployeeModel!]!
+}

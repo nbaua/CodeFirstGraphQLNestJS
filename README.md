@@ -269,6 +269,14 @@ The above command will start the Nest Application and the GraphQL Playground can
 
 `http://localhost:3001/graphql`
 
+`Company API`
+
+![Company](./images/company.png)
+
+`Employee API`
+
+![Employee](./images/employee.png)
+
 ## ToDo
 
 This project is a boilerplate code for anyone to start with the Code First NestJS and GraphQL APIs using TypeORM. The following thing are still needs to be implemented.
