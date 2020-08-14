@@ -271,11 +271,11 @@ The above command will start the Nest Application and the GraphQL Playground can
 
 `Company API`
 
-![Company](./images/company.png)
+![Company](https://github.com/nbaua/CodeFirstGraphQLNestJS/blob/master/images/company.PNG?raw=true)
 
 `Employee API`
 
-![Employee](./images/employee.png)
+![Employee](https://github.com/nbaua/CodeFirstGraphQLNestJS/blob/master/images/employee.PNG?raw=true)
 
 ## ToDo
 
