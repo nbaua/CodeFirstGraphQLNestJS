@@ -71,6 +71,12 @@ TypeOrmModule.forRoot({
 
 `At this point compiling the project would result in the error since there is no graphql schema is defined. The purpose of the code first approach is to auto-generate this required file automatically based on the code we develop further.`
 
+> IF YOU GET THIS ERROR
+
+<mark>Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client</mark>
+
+> CONSIDER ADDING THE USER AN ACCESS TO YOUR DATABASE
+
 ## Development
 
 > `Step1: Generate Required Artifacts and Reference them in App Module`
